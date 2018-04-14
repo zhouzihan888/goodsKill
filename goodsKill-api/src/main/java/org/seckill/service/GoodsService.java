@@ -21,4 +21,6 @@ public interface GoodsService {
     Goods queryByGoodsId(long goodsId);
 
     Goods queryByAll();
+
+    Goods findAllGood();
 }
