@@ -19,6 +19,4 @@ public interface GoodsService {
     List<Goods> queryAll();
 
     Goods queryByGoodsId(long goodsId);
-
-    Goods queryAllGoodId();
 }
